@@ -1,0 +1,93 @@
+h3 {
+    text-align: center;
+}
+h4 {
+  text-align: center;
+}
+#pictureDiv {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+#pictureDiv img {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  width:50%
+}
+#pictureDiv div {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  width: 50%
+}
+#pictureDiv div h4 {
+  text-align: center;
+  font-size: 2em;
+}
+#pictureDiv div h4:first-child {
+  margin-top: 8%
+}
+main {
+  width: 69%;
+  height: 100%;
+  margin-left: auto;
+  margin-right:auto;
+}
+body{
+  display:flex;
+  flex-direction: row;
+}
+aside:first-child {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  float:left;
+  width:14.5%;
+  height:225vh;
+  margin-left: .25%;
+  text-align: center;
+}
+aside:last-child {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  position: relative;
+  float:right;
+  width:14.5%;
+  height:225vh;
+  margin-right: .25%;
+  margin-left: 0;
+  text-align: center;
+}
+a h4 {
+  border-width: thin;
+  border-color:black;
+  border-style:solid;
+}
+#resumePopup {
+  width: 100%;
+  height: 290vh;
+  background:lightgrey;
+  margin-bottom:25vh;
+  width:69%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+#resumePopup h3 {
+  text-align: center;
+  border-color:black;
+  border-style:solid;
+  border-width: thick;
+}
+.popup {
+  position: absolute;
+}
