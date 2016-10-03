@@ -1,0 +1,9 @@
+{
+  "firebase": "aaw-porfolio-website",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
